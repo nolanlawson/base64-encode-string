@@ -7,5 +7,13 @@
   "license": "Apache-2.0",
   "browser": {
     "./index.js": "./browser.js"
-  }
+  },
+  "scripts": {
+    "prepublish": "rollup -c > index.js && BROWSER=true rollup -c > browser.js"
+  },
+  "devDependencies": {
+    "rollup": "^0.41.1",
+    "rollup-plugin-replace": "^1.1.1"
+  },
+  "files": ["index.js", "browser.js"]
 }
