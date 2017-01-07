@@ -1,6 +1,6 @@
 {
   "name": "base64-encode-string",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Simple sample module that base64 encodes a string",
   "main": "index.js",
   "author": "Nolan Lawson <nolan@nolanlawson.com>",
