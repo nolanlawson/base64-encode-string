@@ -5,7 +5,7 @@ if (process.browser) {
   };
 } else {
   base64Encode = function (string) {
-    return Buffer.from(string, 'utf8').toString('base64');
+    return Buffer.from(string, 'binary').toString('base64');
   };
 }
 export default base64Encode;
