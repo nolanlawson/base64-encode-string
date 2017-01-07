@@ -7,5 +7,10 @@
   "license": "Apache-2.0",
   "browser": {
     "./index.js": "./browser.js"
+  },
+  "map": {
+    "./index.js": {
+      "browser": "./browser.js"
+    }
   }
 }
