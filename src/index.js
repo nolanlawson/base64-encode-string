@@ -1,11 +1,7 @@
-var base64Encode;
-if (process.browser) {
-  base64Encode = function (string) {
+export default function base64Encode(string) {
+  if (process.browser) {
     return btoa(string);
-  };
-} else {
-  base64Encode = function (string) {
+  } else {
     return Buffer.from(string, 'binary').toString('base64');
-  };
+  }
 }
-export default base64Encode;
