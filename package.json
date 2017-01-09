@@ -15,5 +15,18 @@
     "rollup": "^0.41.1",
     "rollup-plugin-replace": "^1.1.1"
   },
-  "files": ["index.js", "browser.js"]
+  "files": [
+    "index.js",
+    "browser.js"
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolanlawson/base64-encode-string.git"
+  },
+  "keywords": ["base64", "encode", "string"],
+  "bugs": {
+    "url": "https://github.com/nolanlawson/base64-encode-string/issues"
+  },
+  "homepage": "https://github.com/nolanlawson/base64-encode-string#readme"
 }
